@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "applicationCategories": {
+    "cardboard": "cardboard",
+    "glass": "glass",
+    "metal": "metal",
+    "paper": "paper",
+    "plastic": "plastic",
+    "trash": "other"
+  },
+  "note": "The source label trash is displayed as Other / non-recyclable.",
+  "dataset": "TrashBusters/combined",
+  "datasetRevision": "8c6e9226b01fc8a349750b69911b28d7d7c11443",
+  "datasetLicense": "MIT",
+  "modelLicense": "Apache-2.0 (MobileNetV2 ImageNet initialization) plus project fine-tuning"
+}

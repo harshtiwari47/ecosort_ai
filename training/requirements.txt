@@ -1,0 +1,15 @@
+# Use Python 3.11 or 3.12. On Windows, install the TensorFlow runtime and
+# dataset dependencies first, then install tensorflowjs separately with
+# --no-deps because its optional TensorFlow Decision Forests dependency pins
+# an older TensorFlow release and is not needed for Keras image conversion.
+tensorflow==2.19.0
+tf-keras==2.19.0
+tensorflow-hub==0.16.1
+setuptools==80.9.0
+datasets==3.3.2
+Pillow==11.2.1
+numpy==2.1.3
+requests==2.32.3
+
+# Converter (separate Windows-friendly installation):
+# tensorflowjs==4.22.0 --no-deps

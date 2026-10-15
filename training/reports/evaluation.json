@@ -1,0 +1,110 @@
+{
+  "evaluation_split": "test (held out by the dataset publisher)",
+  "dataset": "TrashBusters/combined",
+  "dataset_revision": "8c6e9226b01fc8a349750b69911b28d7d7c11443",
+  "dataset_license": "MIT (as listed by the dataset card)",
+  "test_examples": 4478,
+  "class_order": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "model": "training\\output\\waste-classifier.keras",
+  "tensorflow_version": "2.19.0",
+  "evaluated_at_utc": "2026-10-15T17:36:52.363048+00:00",
+  "accuracy": 0.750558,
+  "macro_precision": 0.751165,
+  "macro_recall": 0.751187,
+  "macro_f1": 0.750684,
+  "per_class": {
+    "cardboard": {
+      "support": 728,
+      "precision": 0.8,
+      "recall": 0.879121,
+      "f1": 0.837696
+    },
+    "glass": {
+      "support": 750,
+      "precision": 0.8,
+      "recall": 0.784,
+      "f1": 0.791919
+    },
+    "metal": {
+      "support": 750,
+      "precision": 0.762295,
+      "recall": 0.744,
+      "f1": 0.753036
+    },
+    "paper": {
+      "support": 750,
+      "precision": 0.728532,
+      "recall": 0.701333,
+      "f1": 0.714674
+    },
+    "plastic": {
+      "support": 750,
+      "precision": 0.620645,
+      "recall": 0.641333,
+      "f1": 0.63082
+    },
+    "trash": {
+      "support": 750,
+      "precision": 0.795518,
+      "recall": 0.757333,
+      "f1": 0.775956
+    }
+  },
+  "confusion_matrix": [
+    [
+      640,
+      2,
+      13,
+      40,
+      19,
+      14
+    ],
+    [
+      4,
+      588,
+      54,
+      11,
+      77,
+      16
+    ],
+    [
+      9,
+      47,
+      558,
+      32,
+      84,
+      20
+    ],
+    [
+      90,
+      10,
+      31,
+      526,
+      51,
+      42
+    ],
+    [
+      24,
+      71,
+      57,
+      63,
+      481,
+      54
+    ],
+    [
+      33,
+      17,
+      19,
+      50,
+      63,
+      568
+    ]
+  ]
+}

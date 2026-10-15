@@ -1,0 +1,40 @@
+{
+  "dataset": "TrashBusters/combined",
+  "dataset_revision": "8c6e9226b01fc8a349750b69911b28d7d7c11443",
+  "dataset_license": "MIT (as listed by the dataset card)",
+  "class_order": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "image_size": 160,
+  "seed": 42,
+  "batch_size": 32,
+  "requested_epochs": 3,
+  "epochs_completed": 3,
+  "max_train_per_class": 500,
+  "train_examples": 3000,
+  "train_class_counts": {
+    "cardboard": 500,
+    "glass": 500,
+    "metal": 500,
+    "paper": 500,
+    "plastic": 500,
+    "trash": 500
+  },
+  "validation_examples": 4477,
+  "backbone": "MobileNetV2 ImageNet weights, frozen feature extractor",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "sparse_categorical_crossentropy",
+  "tensorflow_version": "2.19.0",
+  "timestamp_utc": "2026-10-15T17:35:33.897679+00:00",
+  "validation_accuracy_per_epoch": [
+    0.6955550312995911,
+    0.7333035469055176,
+    0.754076361656189
+  ]
+}

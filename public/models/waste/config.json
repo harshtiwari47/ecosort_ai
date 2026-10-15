@@ -1,0 +1,14 @@
+{
+  "version": "ecosort-mobilenetv2-1.0.0",
+  "inputSize": 160,
+  "inputScale": 1.0,
+  "labels": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "source": "TensorFlow/Keras MobileNetV2 fine-tuned on TrashBusters/combined@8c6e9226b01fc8a349750b69911b28d7d7c11443"
+}

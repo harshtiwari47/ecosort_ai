@@ -1,0 +1,7 @@
+true/predicted,cardboard,glass,metal,paper,plastic,trash
+cardboard,640,2,13,40,19,14
+glass,4,588,54,11,77,16
+metal,9,47,558,32,84,20
+paper,90,10,31,526,51,42
+plastic,24,71,57,63,481,54
+trash,33,17,19,50,63,568
